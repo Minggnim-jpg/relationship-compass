@@ -1,16 +1,24 @@
 本文件按主题读取；命令和未带链接的相对路径以技能根目录为基准。
 
-## 聊天沟通技巧参照层
+## 随 Skill 提供的沟通参考
 
-`compass` 负责关系动力判断；NotebookLM 负责提供聊天沟通技巧参考。
+先根据互惠、边界、双方意愿和现实约束判断关系与行动，再组织回复。回复只是行动的表达方式，不把措辞优化当成关系改善的充分条件。
 
-默认先使用本地 `references/research/`；只有用户要求回顾或记录时，按 `multi-person-records.md` 选择唯一对象后读取对应档案，不读取 Skill 自带的历史 `compass-data/`。当用户需要接话、话题延展、情绪反馈、幽默表达、冷读/观察式表达、框架重组、破冰、化解尴尬、回复改写，或明确要求「查知识库」「用 NotebookLM」时，再查询 NotebookLM。
+分析与表达使用本 Skill 内置资料，不连接外部知识库或要求用户配置额外服务。按问题只读需要的文件：
 
-用户自行指定的 NotebookLM 笔记本可作为聊天沟通技巧参照库。使用时只抽取表达结构和沟通技法，不直接照抄话术，不编造假经历，不使用打压、欺骗或侵入式推进。配置见 `references/knowledge/notebooklm.md`。
+| 当前问题 | 本地参考 |
+|---|---|
+| 判断关系位置、双方投入和可能解释 | [关系动力模型](relationship-models.md) |
+| 选择推进、澄清、观察或退出等下一步 | [典型场景](../research/05-scenarios.md) |
+| 回复改写、幽默、情绪回应和自然表达 | [分析与回复](analysis-and-replies.md)、[表达风格](../research/03-expression-dna.md) |
+| 拒绝、边界或操控疑虑 | [边界与风险](boundaries-and-risk.md) |
+| 回顾或记录指定对象 | [独立档案](multi-person-records.md)、[记录格式](tracking-and-records.md) |
+
+接话时回应对方实际说的内容；延展话题时围绕一个具体细节追问或分享自己的真实经历；情绪回应先承认感受，再表达想法。幽默不能贬低对方，观察不能冒充读心，改写不能增加虚构经历或用户没有作出的承诺。保留用户希望表达的意思和语气。
+
+只有用户要求回顾或记录时，才选择唯一对象后读取对应档案；不读取 Skill 自带的历史个人数据。用户只是问怎么回时，不自动建立或更新档案。
 
 ---
-
-
 
 ## 附录：调研来源
 
@@ -35,6 +43,5 @@
 - `references/research/05-scenarios.md` —— 典型场景策略详解
 - `references/research/06-counter-manipulation.md` —— 反操控完整应对方案
 - `references/research/07-theory-remap.md` —— 旧7模型到新8模型的理论重映射
-- `references/knowledge/notebooklm.md` —— NotebookLM 聊天沟通技巧参照库配置
 
 ---

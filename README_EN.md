@@ -2,11 +2,15 @@
 
 [简体中文](README.md) · **English**
 
-**You've reread the message ten times. You still don't know what to do next.**
+**Understand where you stand. Decide what to do next.**
 
-Relationship Compass is an AI skill for thinking through romantic relationships. Share a conversation, some context, and what you are unsure about. It helps you examine the interaction, find words that fit your intent, and decide what to do next.
+“How should I reply?” matters. The right words can express interest, clear up a misunderstanding, or help a relationship move forward.
 
-**Reasoning tied to evidence · Practical replies · Separate records for each person · A history you can revisit**
+But its direction depends more on where you both stand: how willing each person is, whether effort is reciprocated, and what you actually do next. A well-written reply cannot make up for persistent one-sided effort.
+
+Relationship Compass draws on conversations, interaction history, and real-world circumstances to help you assess the relationship, choose an action, and then find the words. Separate records for each person give future discussions something concrete to build on.
+
+**Understand the relationship → Choose an action → Draft a reply → Record and review**
 
 [Example](#an-example) · [How it reasons](#how-does-it-analyze-a-relationship) · [Separate records](#each-relationship-has-its-own-context) · [Getting started](#getting-started) · [Privacy](#data-and-privacy)
 
@@ -20,26 +24,6 @@ Relationship Compass is an AI skill for thinking through romantic relationships.
 | We make up after every argument, but nothing changes | Look for explanation, repair, and concrete changes after conflict |
 | I'm getting to know several people and mixing up the details | Keep a separate profile and interaction history for each person |
 | Has this relationship actually changed? | Compare new developments with saved records and identify what supports the assessment |
-
-## An example
-
-> This is a fictional illustration of the approach, not a recorded evaluation. Actual responses depend on the information you provide and the model you use.
-
-**You:**
-
-“We met a month ago. I usually start our conversations, and their replies are warm. But I've suggested meeting twice, and both times they said they were busy without offering another time. Should I ask again?”
-
-**Relationship Compass:**
-
-“Separate chatting from making plans. They are willing to reply, but so far there hasn't been a shared effort to arrange a meeting.
-
-Two invitations without an alternative date are worth noticing. They could genuinely be busy, unsure, or not interested in meeting. There isn't enough information to know which.
-
-If you've already made your invitation clear, you could leave the next arrangement with them:
-
-**‘Sure—let me know when you're free and feel like meeting up.’**
-
-Then see whether they suggest a specific time. You can also consider how much time and energy you want to invest while things remain uncertain.”
 
 ## How does it analyze a relationship?
 
@@ -81,6 +65,37 @@ Analysis and records distinguish three kinds of information:
 - **Unknowns:** for example, why they canceled or whether they want to reschedule.
 
 Any scores in the compass are heuristic estimates, not statements such as “There is an 80% chance they like you.” Insufficient evidence should be marked as unknown.
+
+## From assessment to action
+
+“Where you stand” means how each person sees the relationship, how much each is willing to invest, and whether expectations align. Compass uses your goals and the other person's responses to help you choose a concrete next step:
+
+- **Move forward:** when interest is mutual, make a specific, low-pressure invitation and follow through on the arrangements.
+- **Clarify:** when expectations differ or you keep guessing, state your needs and ask what you need to understand.
+- **Observe:** when information is missing, identify what further actions would help you assess the situation rather than repeatedly interpreting one message.
+- **Repair or step back:** after conflict, discuss concrete changes; when there is a clear refusal or persistent imbalance, respect boundaries and reconsider your investment.
+
+The reply should support the action. “I'll change” needs to be followed by real adjustments. “Let's meet again” needs arrangements both people want to follow through on.
+
+## An example
+
+> This is a fictional illustration of the approach, not a recorded evaluation. Actual responses depend on the information you provide and the model you use.
+
+**You:**
+
+“We met a month ago. I usually start our conversations, and their replies are warm. But I've suggested meeting twice, and both times they said they were busy without offering another time. Should I ask again?”
+
+**Relationship Compass:**
+
+“Separate chatting from making plans. They are willing to reply, but so far there hasn't been a shared effort to arrange a meeting.
+
+Two invitations without an alternative date are worth noticing. They could genuinely be busy, unsure, or not interested in meeting. There isn't enough information to know which.
+
+If you've already made your invitation clear, you could leave the next arrangement with them:
+
+**‘Sure—let me know when you're free and feel like meeting up.’**
+
+Then see whether they suggest a specific time. You can also consider how much time and energy you want to invest while things remain uncertain.”
 
 ## Each relationship has its own context
 
@@ -151,14 +166,14 @@ You do not need to fill out a complete profile before asking for advice. Start w
 
 This English README covers the project and onboarding. The core skill and most reference material are currently in Chinese; you can ask the model to respond in English.
 
-Basic analysis uses the included reference material. NotebookLM is an optional extension that requires your own accessible notebook; it is not needed to get started.
+The analysis frameworks, communication references, and recordkeeping instructions are all included in the skill. No external knowledge base or additional service setup is required. You still need a capable AI assistant; persistent records require file read/write permissions.
 
 ## Data and privacy
 
 - Use aliases and share only the conversation and context needed for the question.
 - Records are saved in your chosen location, defaulting to `compass-data/` in the current working directory, separate from the skill's source files.
 - Local storage does not mean offline processing. Content read by the assistant may be sent to its model provider, depending on your platform and service.
-- Keep personal profiles, raw conversations, and private notebook configuration out of public repositories and issues.
+- Keep personal profiles and raw conversations out of public repositories and issues.
 - This project does not automatically monitor messaging apps or send messages on your behalf.
 
 ## What has been checked
