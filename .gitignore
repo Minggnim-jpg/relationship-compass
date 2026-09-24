@@ -1,0 +1,13 @@
+# Private relationship data: never publish
+compass-data/
+people/
+profiles/
+sessions/
+private/
+.env
+.env.*
+!.env.example
+*credentials*
+*secrets*
+.DS_Store
+__pycache__/
